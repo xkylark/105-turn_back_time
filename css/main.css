@@ -159,3 +159,15 @@ footer span {
 	color: #77a466;
 	font-size: 14px;
 }
+
+footer .social ul {
+	list-style: none;
+}
+
+footer .social li{
+	display: inline-block;
+}
+
+footer .social a {
+	text-decoration: none;
+}
