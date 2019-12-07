@@ -147,11 +147,11 @@ header nav ul li a{
 }
 
 footer {
-	height: 50px;
 	border-top: 3px solid #eee;
 	margin: 0 auto;
 	clear: both;
 	text-align: center;
+	overflow: auto;
 }
 footer span {
 	font-family: 'Wisdom Script', cursive;
@@ -160,14 +160,30 @@ footer span {
 	font-size: 14px;
 }
 
+footer .social {
+	padding-top: 5px;
+}
+
 footer .social ul {
 	list-style: none;
+	padding-left: 10px;
 }
 
 footer .social li{
 	display: inline-block;
+	padding: 0 10px;
 }
 
 footer .social a {
 	text-decoration: none;
+	color: #77a466;
+	transition: color 0.2s;
+}
+
+footer .social a:hover {
+	color: #47613d;
+}
+
+footer .fresh {
+	word-spacing: 1px;
 }
